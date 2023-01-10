@@ -4,9 +4,41 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="./index.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <title>RockPaperScissor</title>
 </head>
 <body>
+    <main class="playground">
+        <div class="game-title">Rock Paper Scissor</div>
+        <div class="game-rule">Whoever scores 5 wins the game</div>
+        <div class="game-field">
+            <div class="player-field">
+                <div class="field-name"> Player </div>
+                <div> Score: <span class="player-score">0</span></div>
+                <div class="btn-section">
+                    <button type="button" class="choices player-btn">Rock</button>
+                    <button type="button" class="choices player-btn">Paper</button>
+                    <button type="button" class="choices player-btn">Scissor</button>
+                </div>
+            </div>
+            <div class="computer-field">
+                <div class="field-name"> Computer </div>
+                <div> Score: <span class="computer-score">0</span></div>
+                <div class="btn-section">
+                    <button type="button" class="choices">Rock</button>
+                    <button type="button" class="choices">Paper</button>
+                    <button type="button" class="choices">Scissor</button>
+                </div>
+            </div>
+        </div>
+        <div class="game-message"></div>
+    </main>  
+    <footer class="footer">
+        <div class="footer-text"> Developed By </div>
+    </footer>
     <script src="./index.js"> </script>
 </body>
 </html>

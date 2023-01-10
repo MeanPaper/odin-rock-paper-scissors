@@ -16,7 +16,6 @@ function playRound(player, computer){
     let p_choice = player.toLowerCase();
     let c_choice = computer.toLowerCase();
     if(p_choice == c_choice){
-
         console.log('Tie!');
     }
     else if(p_choice == 'paper'){
@@ -61,4 +60,4 @@ function game(){
 // const computerSelection = 'Scissor';
 // console.log(playRound(playerSelection, computerSelection));
 
-game();
+// game();
